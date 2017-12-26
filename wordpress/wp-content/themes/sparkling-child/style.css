@@ -1,0 +1,38 @@
+/**
+ Theme Name: Sparkling Child
+ Description: Theme for simple shop tutorial
+ Author: Thach Pham
+ Author URI: https://thachpham.com
+ Template: sparkling
+
+ */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: normal;
+}
+/**
+ * Trang hiển thị chi tiết sản phẩm
+ */
+.entry-header {
+    display: block;
+    overflow: auto;
+}
+.entry-header .left {
+    float: left;
+    margin-right: 1em;
+    width: 53%;
+}
+.entry-header .right {
+    float: right;
+    width: 42%;
+}
+.entry-price {
+    font-weight: bold;
+    color: #1dad1d;
+    font-size: 1.6em;
+}
+
+.sanpham_att_table  {border-collapse:collapse;border-spacing:0;width: 100%;}
+.sanpham_att_table td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.sanpham_att_table th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.sanpham_att_table .sanpham_att_table_row{vertical-align:top}
